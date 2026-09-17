@@ -31,4 +31,14 @@ export const styles = StyleSheet.create({
     color: colors.textSecondary || "#64748b",
     fontSize: 14,
   },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  loadingText: {
+    color: colors.textSecondary || "#64748b",
+    marginTop: 10,
+    fontSize: 14,
+  },
 });

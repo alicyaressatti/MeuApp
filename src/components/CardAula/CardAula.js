@@ -11,11 +11,15 @@ export function CardAula({ item }){
         
                 <View style={[styles.badge, isConcluido ? styles.badgeConcluido : styles.badgeProgresso]}>
                     <Text style={[styles.textoBadge, isConcluido ? styles.textoConcluido : styles.textoProgresso]}>
-                    
                     {item.status}
                     </Text>
                 </View>
             </View>
+
+            <Text style={styles.descricao}>
+                {item.descricao.replace(/\s + /g, "").trim()}
+
+            </Text>
         </View>
     );
 }

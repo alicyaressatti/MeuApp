@@ -67,5 +67,6 @@ export const styles = StyleSheet.create({
     color: colors.textSecondary || "#64748b",
     fontSize: 14,
     textDecorationLine: "underline",
+
   },
 });

@@ -52,5 +52,6 @@ export const styles = StyleSheet.create({
     fontSize: 13,
     color: colors.textSecondary || "#64748b",
     lineHeight: 18,
+    textAlign:"justify",
   },
 });
