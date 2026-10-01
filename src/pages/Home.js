@@ -1,21 +1,9 @@
 import { useState, useEffect } from "react";
-
-import {
-    View,
-    Text,
-    FlatList,
-    ActivityIndicator,
-    Alert
-} from "react-native";
-
+import {View,Text,FlatList,ActivityIndicator,Alert} from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-
 import { CardAula } from "../components/CardAula/CardAula";
-
 import { styles } from "./Home.styles";
-
 import { getPosts } from "../services/api";
-
 import { colors } from "../theme/colors";
 
 export function Home() {
@@ -66,7 +54,6 @@ export function Home() {
                 <Text style={styles.boasVindas}>
                     Bem-vindo de volta!
                 </Text>
-
                 <Text style={styles.tituloPage}>
                     DASHBOARD DE AULAS
                 </Text>
